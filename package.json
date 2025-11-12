@@ -1,0 +1,16 @@
+{
+  "name": "git-version-checker",
+  "version": "0.1.0",
+  "description": "Simple local server + frontend to check git status/log/branches",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
